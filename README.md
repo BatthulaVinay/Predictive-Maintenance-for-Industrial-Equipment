@@ -1,61 +1,80 @@
-# Predictive-Maintenance-for-Industrial-Equipment
+# Predictive Maintenance for Industrial Equipment
 
 ## 📌 Project Overview
 This project focuses on **Predictive Maintenance** for industrial equipment using machine learning. The goal is to predict potential machine failures before they occur, enabling proactive maintenance and reducing downtime.
 
-## 🚀 Features
-- Exploratory Data Analysis (EDA) to understand failure patterns
-- Data preprocessing, including handling missing values and outliers
-- Feature engineering for improved model performance
-- Machine learning models for failure prediction
-- Model evaluation and visualization of results
+## 📊 Dataset
+The dataset contains sensor data from industrial machines, including features such as:
+- **Air Temperature** (K)
+- **Process Temperature** (K)
+- **Rotational Speed** (rpm)
+- **Torque** (Nm)
+- **Tool Wear** (min)
+- **Machine Failure Indicators** (TWF, HDF, PWF, OSF, RNF)
 
-## 📂 Dataset
-The dataset contains multiple sensor readings and machine operating conditions. Key features include:
-- **Air temperature [K]**
-- **Process temperature [K]**
-- **Rotational speed [rpm]**
-- **Torque [Nm]**
-- **Tool wear [min]**
-- **Machine failure (Target Variable)**
+## 🎯 Objective
+The goal is to build a **machine learning model** that predicts whether a machine will fail based on sensor readings. This helps industries reduce **downtime**, optimize **maintenance costs**, and improve **operational efficiency**.
 
-## 🛠️ Installation & Setup
-To run this project, ensure you have Python and the required dependencies installed:
+## 🛠️ Tech Stack
+- **Programming Language:** Python 🐍
+- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- **Modeling:** Machine Learning (Logistic Regression, Random Forest, XGBoost)
+- **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, Confusion Matrix
 
-```bash
-pip install -r requirements.txt
-```
+## 📌 Key Steps
+1. **Exploratory Data Analysis (EDA)**
+   - Data visualization & insights
+   - Handling missing values & outliers
 
-## 📜 Usage
+2. **Feature Engineering**
+   - Data transformation & scaling
+   - Feature selection
+
+3. **Model Development**
+   - Training multiple machine learning models
+   - Hyperparameter tuning
+
+4. **Model Evaluation**
+   - Performance comparison
+   - Confusion matrix & classification reports
+
+## 📈 Results
+The best-performing model achieved:
+- **Accuracy:** 97.855%
+- **Precision:** 97.78%
+- **Recall:** 97.85%%
+- **F1-score:** 97.81%
+
+
+## 🚀 How to Run the Project
 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/predictive-maintenance.git
-cd predictive-maintenance
-```
-2. Run the Jupyter Notebook:
-```bash
-jupyter notebook "Predictive Maintenance for Industrial Equipment.ipynb"
-```
+   ```bash
+   git clone https://github.com/BatthulaVinay/Predictive-Maintenance.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd Predictive-Maintenance
+   ```
+3. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
 
-## 🏆 Model Performance
-The trained models are evaluated using:
-- **Accuracy**
-- **Precision, Recall, F1-score**
-- **Confusion Matrix**
+## 📌 Future Work
+- Implement **Deep Learning models (ANN, LSTM)**
+- Enhance feature selection & engineering
+- Deploy the model as an API for real-time predictions
 
-## 📊 Results & Visualizations
-The project includes various visualizations such as:
-- Correlation heatmaps
-- Feature importance plots
-- Confusion matrices
-
-## 🤝 Contributing
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
-
-## 📄 License
-This project is licensed under the MIT License.
+## 📬 Connect with Me
+- **LinkedIn:** [linkedin.com/in/batthula-vinay](https://linkedin.com/in/batthula-vinay)
+- **GitHub:** [github.com/BatthulaVinay](https://github.com/BatthulaVinay)
 
 ---
 
 ⭐ **Star this repository** if you found it useful!
+
 
