@@ -1,7 +1,7 @@
 # Predictive Maintenance for Industrial Equipment
 
 ## 📌 Project Overview
-This project focuses on **Predictive Maintenance** for industrial equipment using machine learning. The goal is to predict potential machine failures before they occur, enabling proactive maintenance and reducing downtime.
+This project uses machine learning to focus on **Predictive Maintenance** for industrial equipment. The goal is to predict potential machine failures before they occur, enabling proactive maintenance and reducing downtime.
 
 ## 📊 Dataset
 The dataset contains sensor data from industrial machines, including features such as:
@@ -13,7 +13,7 @@ The dataset contains sensor data from industrial machines, including features su
 - **Machine Failure Indicators** (TWF, HDF, PWF, OSF, RNF)
 
 ## 🎯 Objective
-The goal is to build a **machine learning model** that predicts whether a machine will fail based on sensor readings. This helps industries reduce **downtime**, optimize **maintenance costs**, and improve **operational efficiency**.
+The goal is to build a **machine-learning model** that predicts whether a machine will fail based on sensor readings. This helps industries reduce **downtime**, optimize **maintenance costs**, and improve **operational efficiency**.
 
 ## 🛠️ Tech Stack
 - **Programming Language:** Python 🐍
@@ -61,7 +61,7 @@ The best-performing model achieved:
    ```
 4. Run the Jupyter Notebook:
    ```bash
-   jupyter notebook
+   Jupiter notebook
    ```
 
 ## 📌 Future Work
